@@ -13,16 +13,13 @@ export default function Home() {
     { name: "twotter", link: "https://github.com/ScrachStack/twotter", description: "Early NUI based Twotter System for FiveM.", tags: ["FiveM"] },
     { name: "Scratch Shops", link: " https://github.com/ScrachStack/scratch_shops", description: "An Shops Resource for ESX & QBCore. Utilizing Ox_LIb Menus.", tags: ["FiveM"] },
     { name: "vulcan-ac", link: "https://github.com/ScrachStack/vulcan-ac", description: "An anti-cheat system designed for maximum FiveM security.", tags: ["FiveM", "RedM"] },
-    { name: "ps4plus", link: "https://github.com/ScrachStack/ps4plus", description: "An advanced FiveM script emulating console features.", tags: ["Exploit", "Utility"] },
+    { name: "PS4+++", link: "https://github.com/ScrachStack/ps4plus", description: "Discord.js Bot for sending payloads to a homebrew PS4 and more.", tags: ["Exploit", "Utility"] },
     { name: "bus-stops", link: "https://github.com/ScrachStack/bus-stops", description: "Immersive public transport and bus stop interactions for RedM and FiveM.", tags: ["FiveM", "RedM"] },
     { name: "scratch_moonshine", link: "https://github.com/ScrachStack/scratch_moonshine", description: "A detailed moonshining system for RedM servers.", tags: ["RedM"] },
     { name: "Rockstar Editor", link: " https://github.com/ScrachStack/rockstar-editor", description: "oxlib rockstar editor.", tags: ["FiveM"] },
     { name: "EUP UI", link: "https://github.com/ScrachStack/eup-ui", description: "oxlib /eup command to bring up the menu edit oufits.json.", tags: ["FiveM"] },
     { name: "Icebox Robbery", link: "https://github.com/ScrachStack/icebox-robbery", description: "", tags: ["FiveM"] },
-
-
-
-  ];// 
+  ];
 
   const allTags = ["All", "FiveM", "RedM", "Utility", "Exploit"];
   const [activeTag, setActiveTag] = useState("All");
@@ -36,11 +33,10 @@ export default function Home() {
       <div className="relative z-10 p-10 w-full flex flex-col items-center">
         <header className="text-center mb-16">
           <h1 className="text-6xl font-extrabold tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">
-            Sync Studios
+            Sync Studio
           </h1>
           <p className="text-gray-300 text-lg max-w-xl">
-            Innovative development studio crafting premium scripts and systems for
-            the FiveM and RedM communities.
+            Small owned development studio working on FiveM, Web, Discord, RedM, tools & scripts
           </p>
         </header>
 
